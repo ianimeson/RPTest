@@ -1,0 +1,29 @@
+An example JSON payload, with a list containing just a single user (don't forget to set the Content-Type header to "application/json"):
+
+[{
+    "pid": "00754148-902f-4d94-b0db-cb1f7eb3fd84",
+    "username": "user1",
+    "password": "password",
+    "firstName": {
+        "value": "Fred",
+        "verified": true
+    },
+    "dateOfBirth": {
+        "value": "1970-01-01",
+        "verified": true
+    },
+    "address": {
+        "verified": true,
+        "postCode": "WC2B 6NH",
+        "lines": [
+            "Aviation House",
+            "London"
+        ]
+    },
+    "levelOfAssurance": "LEVEL_2",
+    "surnames": [{
+        "value": "Smith",
+        "verified": true
+    }]
+}]
+
